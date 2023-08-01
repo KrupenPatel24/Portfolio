@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <link href="https://api.fontshare.com/v2/css?f[]=general-sans@600,401,400,700&display=swap" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dev Server</title>
+  <!-- <link rel="stylesheet"  href="../styles/style.css">
+  <link rel="stylesheet"  href="../styles/morden_normalize.css">
+  <link rel="stylesheet"  href="../styles/utils.css">
+  <link rel="stylesheet"  href="../components/hero.css">
+  <link rel="stylesheet"  href="../components/header.css"> -->
+
+  <script type="module" crossorigin src="/assets/index-4944ef39.js"></script>
+  <link rel="stylesheet" href="/assets/index-c2d51a83.css">
+</head>
+
+<body>
+  <header class="header container">
+    <nav>
+      <ul class="header__manu">
+        <li>
+          <a class="header__link" href="#about__box">About</a>
+        </li>
+        <li>
+          <a class="header__link" href="#content__box">contact</a>
+        </li>
+        <li>
+          <a class="header__link" href="#work_box">Work</a>
+        </li>
+        <li class="header__line"></li>
+        <li>
+          <button id="theme_toggle" class="header__sun">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+              <path
+                d="M12 2.25a.75.75 0 01.75.75v2.25a.75.75 0 01-1.5 0V3a.75.75 0 01.75-.75zM7.5 12a4.5 4.5 0 119 0 4.5 4.5 0 01-9 0zM18.894 6.166a.75.75 0 00-1.06-1.06l-1.591 1.59a.75.75 0 101.06 1.061l1.591-1.59zM21.75 12a.75.75 0 01-.75.75h-2.25a.75.75 0 010-1.5H21a.75.75 0 01.75.75zM17.834 18.894a.75.75 0 001.06-1.06l-1.59-1.591a.75.75 0 10-1.061 1.06l1.59 1.591zM12 18a.75.75 0 01.75.75V21a.75.75 0 01-1.5 0v-2.25A.75.75 0 0112 18zM7.758 17.303a.75.75 0 00-1.061-1.06l-1.591 1.59a.75.75 0 001.06 1.061l1.591-1.59zM6 12a.75.75 0 01-.75.75H3a.75.75 0 010-1.5h2.25A.75.75 0 016 12zM6.697 7.757a.75.75 0 001.06-1.06l-1.59-1.591a.75.75 0 00-1.061 1.06l1.59 1.591z" />
+            </svg>
+          </button>
+        </li>
+        <li>
+          <a href="#" class="header__resume btn">Resume</a>
+        </li>
+      </ul>
+      <button class="header__bars">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+          <path fill-rule="evenodd"
+            d="M3 6.75A.75.75 0 013.75 6h16.5a.75.75 0 010 1.5H3.75A.75.75 0 013 6.75zM3 12a.75.75 0 01.75-.75h16.5a.75.75 0 010 1.5H3.75A.75.75 0 013 12zm0 5.25a.75.75 0 01.75-.75H12a.75.75 0 010 1.5H3.75a.75.75 0 01-.75-.75z"
+            clip-rule="evenodd" />
+        </svg>
+      </button>
+    </nav>
+  </header>
+  <!-- nobile  nevigation -->
+  <div class="mobile__nav">
+    <nav>
+      <ul class="mobile__nav__menu">
+        <li>
+          <a class="mobile__nav_link " href="#about__box">About</a>
+        </li>
+        <li>
+          <a class="mobile__nav_link" href="#content__box">contact</a>
+        </li>
+        <li>
+          <a class="mobile__nav_link" href="#work_box">Work</a>
+        </li>
+        <li class="mobile__nav_line"></li>
+        <li>
+          <button id="theme_toggle" class="mobile__nav_sun">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+              <path
+                d="M12 2.25a.75.75 0 01.75.75v2.25a.75.75 0 01-1.5 0V3a.75.75 0 01.75-.75zM7.5 12a4.5 4.5 0 119 0 4.5 4.5 0 01-9 0zM18.894 6.166a.75.75 0 00-1.06-1.06l-1.591 1.59a.75.75 0 101.06 1.061l1.591-1.59zM21.75 12a.75.75 0 01-.75.75h-2.25a.75.75 0 010-1.5H21a.75.75 0 01.75.75zM17.834 18.894a.75.75 0 001.06-1.06l-1.59-1.591a.75.75 0 10-1.061 1.06l1.59 1.591zM12 18a.75.75 0 01.75.75V21a.75.75 0 01-1.5 0v-2.25A.75.75 0 0112 18zM7.758 17.303a.75.75 0 00-1.061-1.06l-1.591 1.59a.75.75 0 001.06 1.061l1.591-1.59zM6 12a.75.75 0 01-.75.75H3a.75.75 0 010-1.5h2.25A.75.75 0 016 12zM6.697 7.757a.75.75 0 001.06-1.06l-1.59-1.591a.75.75 0 00-1.061 1.06l1.59 1.591z" />
+            </svg>
+          </button>
+        </li>
+        <li>
+          <a href="#" class="mobile__nav__resume btn">Resume</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+  <!-- end of mobile navigation -->
+  <main>
+    <!-- HERO SECTION -->
+    <section class="hero container">
+      <img  class="hero__img" src="/assets/hero1-185c8c22.JPG" alt="Profile Photo">
+      <h1 class="hero__subtitle">hi , i'm kupen👋</h1>
+      <h2 class="hero__title">FRONT-END<br>WEB DEVELOPER</h2>
+      <p class="hero__desc">
+        A Passionate <strong>FrontEnd and Web-Design</strong> enthusiast specialized in building stunning pixel perfect
+        interraction websites/application.
+      </p>
+      <a class="hero__btn btn" href="#">Reach out</a>
+    </section>
+    <!-- ABOUT SECTION -->
+    <section id="about__box" class="about container section">
+      <div class="about__content">
+        <h2 class="about__title">About</h2>
+        <p class="about__desc">hello there! i'm kupen,a Front-End Web Developer and web Design,Lorem ipsum dolor sit
+          amet consectetur adipisicing elit. Minima asperiores fugit ex numquam consectetur porro amet nemo a veniam?
+          Vitae!</p>
+        <p class="about__desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, maiores?</p>
+        <p class="about__desc">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit ipsa saepe nulla eius
+          aliquid pariatur?</p>
+        <hr class="about__hr">
+        <h3 class="about__subtitle">Technologies</h3>
+        <div class="about__ul__container">
+          <ul class="about__ul">
+            <li class="about__list">Javascript</li>
+            <li class="about__list">HTML</li>
+            <li class="about__list">CSS</li>
+            <li class="about__list">JAVA</li>
+          </ul>
+          <ul class="about__ul">
+            <li class="about__list">python(basic)</li>
+            <li class="about__list">IoT</li>
+            <li class="about__list">Web Security</li>
+            <li class="about__list">Node Js</li>
+          </ul>
+        </div>
+      </div>
+      <div class="about__img__wrapper">
+        <img class="about__img" src="/assets/section-874646a6.jpg" alt=" My profile">
+      </div>
+    </section>
+    <!-- FEATURED SECTION -->
+    <section class="featured section container">
+      <h3 class="featured__subtitle">Featured Project</h3>
+      <div class="featured__wrapper">
+        <h2 class="featured__title">Slaying the Dragon</h2>
+        <a class="featured__link" href="#">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
+              <path fill-rule="evenodd" d="M19.902 4.098a3.75 3.75 0 00-5.304 0l-4.5 4.5a3.75 3.75 0 001.035 6.037.75.75 0 01-.646 1.353 5.25 5.25 0 01-1.449-8.45l4.5-4.5a5.25 5.25 0 117.424 7.424l-1.757 1.757a.75.75 0 11-1.06-1.06l1.757-1.757a3.75 3.75 0 000-5.304zm-7.389 4.267a.75.75 0 011-.353 5.25 5.25 0 011.449 8.45l-4.5 4.5a5.25 5.25 0 11-7.424-7.424l1.757-1.757a.75.75 0 111.06 1.06l-1.757 1.757a3.75 3.75 0 105.304 5.304l4.5-4.5a3.75 3.75 0 00-1.035-6.037.75.75 0 01-.354-1z" clip-rule="evenodd" />
+            </svg>
+            
+        </a>
+      </div>
+      <p class="featured__desc">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae similique, molestiae
+        quae velit blanditiis ipsum pariatur hic sit impedit cum inventore sequi laudantium perspiciatis nesciunt illum,
+        nam, quis non eius.
+      </p>
+      <div class="featured__info__container">
+        <div>
+          <h3 class="featured__label">Tech Stack</h3>
+          <ul class="featured__tech-stack">
+            <li class="featured__info">Tailwind css</li>
+            <li class="featured__info">React hook</li>
+            <li class="featured__info">React js</li>
+            <li class="featured__info">stripe</li>
+            <li class="featured__info">Axios</li>
+            <li class="featured__info">css</li>
+            <li class="featured__info">supabase</li>
+          </ul>
+        </div>
+        <div>
+          <h3 class="featured__label">Project type</h3>
+          <p class="featured__info">Fullstack -Jamstack</p>
+        </div>
+        <div>
+          <h3 class="featured__label">time line</h3>
+          <p class="featured__info">December -2022 present</p>
+        </div>
+      </div>
+      <div class="featured__img__container">
+        <div class="featured__img__wrapper">
+          <img loading="lazy" src="../img/screenshot_1.png" alt="websiteImages">
+        </div>
+        <div class="featured__img__wrapper">
+          <img loading="lazy" src="../img/screenshot_2.png" alt="websiteImages">
+        </div>
+        <div class="featured__img__wrapper">
+          <img loading="lazy" src="../img/screenshot_3.png" alt="websiteImages">
+        </div>
+        <div class="featured__img__wrapper">
+          <img loading="lazy" src="../img/screenshot_4.png" alt="websiteImages">
+        </div>
+        <div class="featured__img__wrapper">
+          <img loading="lazy" src="../img/screenshot_5.png" alt="websiteImages">
+        </div>
+        <div class="featured__img__wrapper">
+          <img loading="lazy" src="../img/screenshot_6.png" alt="websiteImages">
+        </div>
+        <div class="featured__img__wrapper">
+          <img loading="lazy" src="../img/screenshot_7.png" alt="websiteImages">
+        </div>
+        <div class="featured__img__wrapper">
+          <img loading="lazy" src="../img/screenshot_8.png" alt="websiteImages">
+        </div>
+      </div>
+    </section>
+
+
+    <section id="work_box" class="work container section">
+      <h2 class="work__title">Projects</h2>
+      <p class="work__desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse, suscipit quidem, autem
+        doloribus ad minima voluptas nostrum adipisci harum repellat repudiandae eaque blanditiis! Obcaecati sint culpa
+        consectetur consequatur reprehenderit deleniti amet repellat tenetur maxime. Nobis reprehenderit modi voluptas
+        excepturi consequatur?</p>
+
+      <div class="work__container">
+        <!-- project 1 -->
+        <h3 class="work__project__title">Project 1</h3>
+        <div class="work__img__wrapper work__image1">
+          <img loading="lazy" src="/assets/work_1-121ff951.jpg" alt="workPhoto">
+        </div>
+        <div class="work__project work__content1">
+          <h3 class="work__project__subtitle">Project 1</h3>
+          <p class="work__project__desc1">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe, esse.</p>
+          <p class="work__project__desc2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, cupiditate!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis molestias culpa minima sint. Dolor, minima
+            cupiditate? Voluptatem consectetur doloribus itaque.</p>
+          <button class="btn work__project_btn">Website</button>
+        </div>
+        <!-- project 2 -->
+        <h3 class="work__project__title">Project 2</h3>
+        <div class="work__img__wrapper work__image2">
+          <img loading="lazy" src="/assets/work_2-80937294.jpg" alt="workPhoto">
+        </div>
+        <div class="work__project work__content2">
+          <h3 class="work__project__subtitle">Project 2</h3>
+          <p class="work__project__desc1">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe, esse.</p>
+          <p class="work__project__desc2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, cupiditate!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis molestias culpa minima sint. Dolor, minima
+            cupiditate? Voluptatem consectetur doloribus itaque.</p>
+          <button class="btn work__project_btn">Website</button>
+        </div>
+        <!-- project 3 -->
+        <h3 class="work__project__title">Project 3</h3>
+        <div class="work__img__wrapper work__image3">
+          <img loading="lazy" src="/assets/work_3-d654b645.jpg" alt="workPhoto">
+        </div>
+        <div class="work__project work__content3">
+          <h3 class="work__project__subtitle">Project 3</h3>
+          <p class="work__project__desc1">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe, esse.</p>
+          <p class="work__project__desc2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, cupiditate!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis molestias culpa minima sint. Dolor, minima
+            cupiditate? Voluptatem consectetur doloribus itaque.</p>
+          <button class="btn work__project_btn">Website</button>
+        </div>
+        <!-- project 4 -->
+        <h3 class="work__project__title">Project 4</h3>
+        <div class="work__img__wrapper work__image4">
+          <img loading="lazy" src="/assets/work_4-6a1fe06b.jpg" alt="workPhoto">
+        </div>
+        <div class="work__project work__content4">
+          <h3 class="work__project__subtitle">Project 4</h3>
+          <p class="work__project__desc1">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe, esse.</p>
+          <p class="work__project__desc2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, cupiditate!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis molestias culpa minima sint. Dolor, minima
+            cupiditate? Voluptatem consectetur doloribus itaque.</p>
+          <button class="btn work__project_btn">Website</button>
+        </div>
+        <!-- project 5 -->
+        <h3 class="work__project__title">Project 5</h3>
+        <div class="work__img__wrapper work__image5">
+          <img loading="lazy" src="/assets/work_5-9c95c115.jpg" alt="workPhoto">
+        </div>
+        <div class="work__project work__content5">
+          <h3 class="work__project__subtitle">Project 5</h3>
+          <p class="work__project__desc1">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe, esse.</p>
+          <p class="work__project__desc2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, cupiditate!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis molestias culpa minima sint. Dolor, minima
+            cupiditate? Voluptatem consectetur doloribus itaque.</p>
+          <button class="btn work__project_btn">Website</button>
+        </div>
+        <!-- project 6 -->
+        <h3 class="work__project__title">Project 6</h3>
+        <div class="work__img__wrapper work__image6">
+          <img loading="lazy" src="/assets/work_6-cc8bf9a1.jpg" alt="workPhoto">
+        </div>
+        <div class="work__project work__content6">
+          <h3 class="work__project__subtitle">Project 6</h3>
+          <p class="work__project__desc1">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe, esse.</p>
+          <p class="work__project__desc2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, cupiditate!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis molestias culpa minima sint. Dolor, minima
+            cupiditate? Voluptatem consectetur doloribus itaque.</p>
+          <button class="btn work__project_btn">Website</button>
+        </div>
+      </div>
+    </section>
+    <section id="content__box" class="content container section">
+      <h2 class="content__title">Get in content</h2>
+      <p class="content__desc">Whether you are starting a project,have business inquire or just want to say hi ,my inbox
+        is always open so feel free to reach out and i will get back to you as soon as possible.</p>
+      <a href="mailto:krupencp241102@gmail.com" target="_blank" class="btn content__btn">Reach Out</a>
+    </section>
+  </main>
+  <footer class="footer section container">
+    <h3 class="footer__title">~kupen patel~</h3>
+  </footer>
+  
+</body>
+
+</html>
